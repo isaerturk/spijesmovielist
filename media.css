@@ -1,0 +1,179 @@
+/* media adjustment */
+@media screen and (max-width: 1440px) {
+  .img-slider .slider-container {
+    width: 7200px;
+  }
+  .img-slider .slider-container .slide img {
+    width: 90em;
+  }
+
+  @keyframes slider {
+    0%,
+    10%,
+    100% {
+      left: 0;
+    }
+
+    20%,
+    30% {
+      left: -1440px;
+    }
+
+    40%,
+    50% {
+      left: -2880px;
+    }
+
+    60%,
+    70% {
+      left: -4320px;
+    }
+
+    80%,
+    90% {
+      left: -5760px;
+    }
+  }
+}
+@media screen and (max-width: 1366px) {
+  .watchlist-container > *:not(:last-child) {
+    margin-right: 10px;
+  }
+  .wl-toggle-items {
+    padding: 4px;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .watchlist-header-bg::after {
+    font-size: 12em;
+    padding-top: 100px;
+  }
+  .img-slider .slider-container {
+    width: 5400px;
+  }
+  .img-slider .slider-container .slide img {
+    width: 67.5em;
+  }
+
+  @keyframes slider {
+    0%,
+    10%,
+    100% {
+      left: 0;
+    }
+
+    20%,
+    30% {
+      left: -1080px;
+    }
+
+    40%,
+    50% {
+      left: -2160px;
+    }
+
+    60%,
+    70% {
+      left: -3240px;
+    }
+
+    80%,
+    90% {
+      left: -4320px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .watchlist-header-bg::after {
+    font-size: 6em;
+    padding-top: 150px;
+  }
+  .img-slider {
+    height: 300px;
+  }
+  .img-slider .slider-container {
+    width: 3840px;
+  }
+  .img-slider .slider-container .slide img {
+    width: 48em;
+    height: 300px;
+  }
+
+  @keyframes slider {
+    0%,
+    10%,
+    100% {
+      left: 0;
+    }
+
+    20%,
+    30% {
+      left: -768px;
+    }
+
+    40%,
+    50% {
+      left: -1536px;
+    }
+
+    60%,
+    70% {
+      left: -2304px;
+    }
+
+    80%,
+    90% {
+      left: -3072px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    position: sticky;
+  }
+  .watchlist-header-bg::after {
+    font-size: 3em;
+    padding-top: 180px;
+  }
+  .img-slider {
+    height: 200px;
+  }
+  .img-slider .slider-container {
+    width: 2125px;
+  }
+  .img-slider .slider-container .slide img {
+    width: 30em;
+    height: 200px;
+  }
+
+  @keyframes slider {
+    0%,
+    10%,
+    100% {
+      left: 0;
+    }
+
+    20%,
+    30% {
+      left: -480px;
+    }
+
+    40%,
+    50% {
+      left: -850px;
+    }
+
+    60%,
+    70% {
+      left: -1275px;
+    }
+
+    80%,
+    90% {
+      left: -1700px;
+    }
+  }
+}
