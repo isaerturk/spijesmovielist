@@ -442,7 +442,7 @@ input#filmara {
   border-radius: 3px;
   cursor: pointer;
   font-weight: bold;
-  z-index: 999;
+  z-index: 29;
 }
 .watchlist-item {
   width: 200px;
