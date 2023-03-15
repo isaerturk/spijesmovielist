@@ -22,6 +22,119 @@ $(document).ready(function () {
       },
       {
         quote:
+          "Kardeşim ben senin yılgın bir hoşgörüyle beni benimsemene mi kaldım?",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Kimsenin hiçbir şey bilmediği yerde bir insan her şeyi bilebilir",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Sadece 10 liramın olması sıfır liramın olmasından daha çok canımı yakıyor. Lütfen beni bu 10 liradan kurtar!",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Lan yaşadığımız yetmiyor bir de senden dinliyoruz hayatın acı gerçeklerini..",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Gerçeklerin bir kıymeti yok ki. Genel kanı neyse onu yaşıyoruz.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Ya güzel kardeşim bir şeyin tam tersini söyle al sana farklı bakış açısı.",
+        author: "Gibi",
+      },
+      {
+        quote: "AYBEN ne lan? Sen IBAN'a 'ayben' mi diyorsun?",
+        author: "Gibi",
+      },
+      {
+        quote: "İlkkan ne oldu sana? Birkaç gündür kangal köpeği gibisin.",
+        author: "Gibi",
+      },
+      {
+        quote: "Yaşarken anlamadın mı oğlum ne yaşadığını ya!",
+        author: "Gibi",
+      },
+      {
+        quote: "Belki de bu yüzden yalnızca cesurların işidir badana.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Ben yanlış geldiğimi anladım da siz çok yanlış gözüküyorsunuz. Buraya ‘Mandosi’ yazıp, kendine Esat diyip, Kadir ismiyle olmuyor.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Benim zevklerim sizin nezdinizde makul bir zemine oturmak zorunda değil.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Ya güzel kardeşim bir şeyin tam tersini söyle al sana farklı bakış açısı.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Saat daha sabah 8. Büyücüler açılmamıştır. Gidelim şurada bir yerde çay kahve bir şeyler içelim.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "60 adet yumurta, 5 kilogram beyaz peynir, 10 litre süt, 4.5 kilogram tavuk göğsü, 2 kilogram yulaf, 6 adet 1 kiloluk yoğurt, 1 litre bebe yağı + 46 numara bay terlik",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Ezelden beridir ebeveynlerimizin çizdiği yolda, adımıza kurulmuş hayalleri kovaladık. Gerçi ben badanacı olarak bu zinciri kırdım ama…",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Çorbamın içine mermi koymuşlar. Bir mesaj olarak mı acaba? Allahın dinlenme tesisinde bu ne sembolizm ya?",
+        author: "Gibi",
+      },
+      {
+        quote: "Oğlum sen hala köle misin? Kurtuldun ya! Biz siviliz lan!",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Yürümek öyle çok da matah bir şey değil Ozan! İşte al bak, İlkkan abin yürüyor. N’aptı? Yürüye yürüye gitti köle oldu.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Ya güzel kardeşim bir şeyin tam tersini söyle al sana farklı bakış açısı.",
+        author: "Gibi",
+      },
+      {
+        quote: "İlkkan’ın fıstığa alerjisi var, batılı gibi!",
+        author: "Gibi",
+      },
+      {
+        quote: "Erdem atletik diye ben niye köfteci açmak zorundayım?",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "Bizler sorunlarımızdan kahvaltı yaparak kaçan insanlar da değiliz.",
+        author: "Gibi",
+      },
+      {
+        quote:
+          "El vardır, ele olur el. Bel vardır, bele olur bel. Dil vardır, dile olur dil. Göl vardır, göle olur göl. Döl vardır, döle olur döl.",
+        author: "Gibi",
+      },
+      {
+        quote:
           "Eğer hepsini yeniden kaybedeceksem fazla bağlanmak istemiyorum.",
         author: "Anne with an E",
       },
@@ -35,7 +148,7 @@ $(document).ready(function () {
       {
         quote:
           "Bir adam bir şeyi istediği zaman, başka bir adam onun bunu istediğini bilir.",
-        author: "The Godfathe",
+        author: "The Godfather",
       },
       {
         quote:
@@ -210,6 +323,72 @@ $(document).ready(function () {
         quote:
           "Hiç yanımda olmayan birisinin, hep aklımda olması çok tuhaf değil mi?",
         author: "Hızlı ve Öfkeli",
+      },
+      {
+        quote: "Arkadaşlarla olmak için ne hoş bir yer!",
+        author: "Harry Potter",
+      },
+      {
+        quote:
+          "Başarıyı getiren şey yanındakilerin sayısı değil inandığın şeylerin niteliğidir.",
+        author: "Harry Potter",
+      },
+      {
+        quote:
+          "Ölüler için üzülme Harry, yaşayanlar için üzül. Her şeyden önce de sevgisiz yaşayanlar için.",
+        author: "Harry Potter",
+      },
+      {
+        quote: "Biraz risk olmadan hayatın ne tadı olur?",
+        author: "Harry Potter",
+      },
+      {
+        quote:
+          "Hepimizin içinde hem aydınlık hem de karanlık bir taraf vardır. Önemli olan hangisini seçtiğimizdir. Bizi biz yapan budur.",
+        author: "Harry Potter",
+      },
+      {
+        quote:
+          "Mutluluk en karanlık zamanlarda bile vardır. Yeter ki ışığı açmayı unutmayın.",
+        author: "Harry Potter",
+      },
+      {
+        quote: "Bu iyiydi, James. (Nice one, James)",
+        author: "Harry Potter",
+      },
+      {
+        quote: "Birine karar vermek, diğerini kaybetmektir.",
+        author: "O kadın",
+      },
+      {
+        quote: "Aynı şey iki defa gerçekleşmez",
+        author: "Narnia Günlükleri",
+      },
+      {
+        quote:
+          "Makyajına ve yüzündeki boyalarına güvenme. Yollar da güzeldir ama altından kanalizyasyon geçer.",
+        author: "Scarface",
+      },
+      {
+        quote:
+          "Bazı insanları çevresi yaratır,bazı insanlar çevresini yaratır.",
+        author: "Köstebek",
+      },
+      {
+        quote: "Kimse hayat kadar sert vuramaz.",
+        author: "Rocky Balboa",
+      },
+      {
+        quote: "İmkansız ulaşmanın tek yolu, onun mümkün olduğuna inanmaktır.",
+        author: "Alice Harikalar Diyarı",
+      },
+      {
+        quote: "Hayatta yaptıklarımız, sonsuzlukta yankılanır",
+        author: "Gladiator",
+      },
+      {
+        quote: "Kibir, benim en gözde günahımdır.",
+        author: "Şeytanın Avukatı",
       },
     ],
   };
