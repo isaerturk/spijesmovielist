@@ -61,45 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
       closeAllModals();
     }
   });
-
-  // fetch("/data.json")
-  //   .then((response) => response.json())
-  //   .then((data) => {
-  //     let watchlistHtml = "";
-  //     data.forEach((watchlist) => {
-  //       watchlistHtml +=
-  //         '<div class="watchlist-item" data-item="' +
-  //         watchlist.dataItem +
-  //         '"><div class="wl-itemfront"><img src="' +
-  //         watchlist.poster +
-  //         '"alt="poster" style="height: 360px; width: 260px"/></div><div class="wl-itemback text-justify p-2"><ul class="bg-black text-white p-1 mainfont text-l"><li class="isim"><h1 class="">' +
-  //         watchlist.title +
-  //         '</h1></li><li class="dir-oyuncu"><span class="dir">| Yönetmen | <em></em>' +
-  //         watchlist.director +
-  //         '</em> </span><br /><span class="oyuncu">| Oyuncular | <em></em>' +
-  //         watchlist.actors +
-  //         '</em></span></li><li class="tür"><span>| Tür |<em> </em><a href="#" class="' +
-  //         watchlist.typeClass +
-  //         '"><em>' +
-  //         watchlist.type +
-  //         '</em></a><a href="#" class="' +
-  //         watchlist.typeClass2 +
-  //         '"><em>' +
-  //         watchlist.type2 +
-  //         '</em></a></span></li><li class="süre"><span> | Süre | <em></em>' +
-  //         watchlist.time +
-  //         '</em></span></li><li class="puan">| <i class="fa-brands fa-imdb text-xl"></i>|<span id="puan"><em></em>' +
-  //         watchlist.score +
-  //         '</em></span><small>/10</small></li></ul><ul class="mt-2.5 flex justify-between"><li class="play-btn"><a class="bg-black text-white hover:bg-white hover:text-black font-bold p-3 w-28 block text-center" href="' +
-  //         watchlist.movieLink +
-  //         '"target="_blank">Oynat</a></li><li class="trailer-btn"><a class="bg-black text-white hover:bg-white hover:text-black font-bold p-3 w-28 block text-center" href="' +
-  //         watchlist.trailerLink +
-  //         '"target="_blank">Fragman</a></li></ul><button class="mt-2.5 bg-black text-white w-full p-3 font-bold">Özet İçin Aşağı Kaydır</button><p class="konu bg-black mt-2.5 text-white w-full text-justify p-1">' +
-  //         watchlist.subject +
-  //         "</p></div></div>";
-  //     });
-  //     document.querySelector(".watchlist-container").innerHTML = watchlistHtml;
-  //   });
 });
 
 // başka sekmeye geçildiğinde title değiştirme
