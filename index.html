@@ -15,9 +15,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- bulmacss -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <!-- swiperjs -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -258,7 +264,10 @@
           <i class="fa-solid fa-chevron-right"></i
         ></span>
       </div>
-      <div id="mylist-content" class="mylist-content mt-4 flex gap-5 pl-5 pt-2.5">
+      <div
+        id="mylist-content"
+        class="mylist-content mt-4 flex gap-5 pl-5 pt-2.5"
+      >
         <div class="card cursor-pointer">
           <div class="card-poster relative">
             <img
@@ -8577,12 +8586,1063 @@
         </div>
       </div>
     </div>
+
+    <section class="cinema-section">
+      <div class="cs-header mainfont">
+        <form>
+          <input type="radio" name="vizyon" id="vizyon" value="vizyondakiler" checked />
+          <label for="vizyon" title="Vizyondakiler"><p>VİZYONDA</p></label>
+          <input type="radio" name="vizyon" id="yakında" value="yakinda"/>
+          <label for="yakında" title="Yakındakiler"><p>YAKINDA</p></label>
+        </form>
+        <audio id="click-sound"  src="/images/whoosh-blow-flutter-shortwav-14678.mp3"></audio>
+      </div>
+      <div id="vizyondakiler" class="">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BYTQ5OTkxNGEtZjZkMS00ZjBlLWE2OWYtM2ZkOTU3MjRlNzAxXkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">10.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Scream 6 | Çığlık 6 |</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNmRlN2Y1MjAtNGZjZS00YTk4LTk2ZjMtNzJmYTJkNDdiNDU0XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">20.01.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Kutsal Damacana 4</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>2.9</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">17.02.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Ant-Man and the Wasp: Quantumania</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">21.12.2022</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">
+                    Puss In Boots | Çizmeli Kedi: Son Dilek |
+                  </h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.9</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BYzFhM2M1MDUtNDhmNC00YzEzLThiMzctYWYxZTc0MGJhNWYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">10.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">65</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>5.7</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BZDNlZmRkM2UtZTBiYy00YTlhLThkZmEtM2YwY2FkMTUwZjViXkEyXkFqcGdeQXVyMTMzNDE5NDM2._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">03.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Creed 3 | Efsane Devam Ediyor |</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BYTQzMjllOGMtMGE2ZS00MjNlLTk3ZmUtMzJjMWJjYTY4MzcxXkEyXkFqcGdeQXVyNjk0ODAxMTk@._V1_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">24.02.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Arı Maya 3: Altın Küre</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>5.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNTFiN2VhY2QtMDlmZC00NmY0LThmNGEtM2RhNjE0MGIxNTEzXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">01.06.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Rafadan Tayfa Galaktik Tayfa</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.1</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNzg3OTEzMTgtYWU0OC00YTI0LWIxOTAtNmRkNTc0Nzg2YWU1XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">13.01.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Hayata Röveşata Atan Adam</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">16.12.2022</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Avatar: Suyun Yolu</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.8</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://live.staticflickr.com/65535/52618014244_834c661874_k.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">13.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Hayaller Ülkesi: Gizemli Macera</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>4.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BMmJlMDFjNzktYjNmYi00MmI4LTgyOTUtYzk1MjcyMGQzZmU2XkEyXkFqcGdeQXVyODIzNTY3ODk@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">13.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Tek Yürek İmalat-i Harbiye</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>8.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BZmMwYTA2MmMtY2YyNy00MDA5LWI0NGEtZjliZGQ4ZDQ4NDNkXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">04.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Ne Olacak Halim?</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>4</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNThjYmY4YWUtZTVmMC00NzJiLWEzZjMtMDM4NmQ5NDc1N2Q1XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">13.01.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">İllegal Hayatlar</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BZDU1M2IxMGEtYTdmYS00MTc5LWE2NTQtYTY2MmFiODkwYWNmXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">12.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Sessiz Kız</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.7</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNTdiMWI1ZmUtOTk3OS00ZDYxLThjZWYtYjIwNWJkNTkxMmJlXkEyXkFqcGdeQXVyMTQyODg5MjQw._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">03.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Yaşamak</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BZTJkMTBjZWEtMzhhMy00MjlkLTkyNTYtNGZjNGM4Mjk5YTEyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">17.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Shazam: 2</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.9</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                src="https://live.staticflickr.com/65535/52725222053_e725c1280d_k.jpg
+                alt="" />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">17.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Kahraman Kuyruklar</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.1</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://lh3.googleusercontent.com/IBbXk8HeCFRNVMah8NIU_hhHzehkH2N29RKzOJ29N7QEnoph93rbUGcSmc767tuyYRQ-XLHobmJrbkGzHfBDmbsLVJT_SwlbckdtbwttXoc7lrYrSt0vNfRsZzatdfMJ2wbed1x2nGo=w2400"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">17.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Karlar Kralı Norm 3</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>3.4</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+          </div>
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div id="yakındakiler" class="">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img2.acsta.net/c_310_420/pictures/23/03/09/13/58/2006576.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">22.03.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">John Wick 4</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img2.acsta.net/c_310_420/pictures/23/03/15/07/48/1537739.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">19.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Hızlı ve Öfkeli 10</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>2.9</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/22/07/25/18/29/4611272.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">01.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Avengers: Secret Wars</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/22/12/26/08/17/4560694.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">07.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">
+                    Zindanlar ve Ejderhalar: Hırsızlar Arasındaki Onur
+                  </h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.9</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/22/12/23/08/24/1169095.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">02.06.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">
+                    Örümcek-Adam: Örümcek-Evrenine Geçiş
+                  </h2>
+                  <h3 class="vizyon-puanı">
+                    <span>5.7</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img4.acsta.net/c_310_420/pictures/21/06/30/15/06/1236936.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">09.06.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">
+                    Transformers: Canavarların Yükselişi
+                  </h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img4.acsta.net/c_310_420/pictures/23/03/14/10/37/0456710.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">14.04.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Super Mario Kardeşler Filmi</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>5.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img4.acsta.net/c_310_420/pictures/19/02/01/21/02/1004291.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">29.12.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Aquaman ve Kayıp Krallık</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.1</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img4.acsta.net/c_310_420/pictures/23/02/22/15/50/3204928.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">05.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Şeytanın Düşmanı</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/22/11/23/08/37/5454046.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">15.12.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">
+                    Vatikan'ın Şifresi: Bir Temel Macerası
+                  </h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.8</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img4.acsta.net/c_310_420/pictures/23/02/13/09/04/5672474.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">28.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Galaksinin Koruyucuları 3</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>4.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/23/02/04/01/09/5857650.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">14.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Tatlı Bela</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>8.5</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BMzQ3NTRjZDUtNGVhYS00OWQ0LTljMjEtYzJkOGJhYWViNjIxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">21.07.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Barbie</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>4</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img2.acsta.net/c_310_420/pictures/23/03/13/09/47/3101272.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">26.05.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Küçük Deniz Kızı</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BYjFkM2RhZjUtN2U0MC00NTMxLTk1MjktZDkwNjg3MjI0NmYxXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">03.11.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Dune: Part Two</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.7</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/22/12/15/07/56/2897013.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">21.07.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Oppenheimer</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>7.3</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/19/03/05/17/34/0744728.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">14.07.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">
+                    Mission Impossible: Ölümcül Hesaplaşma Birinci Bölüm
+                  </h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.9</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img3.acsta.net/c_310_420/pictures/22/09/12/10/32/4728271.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">16.06.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">Elemental: Doğanın Güçleri</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>6.1</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+            <!--Swipe Başı-->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img
+                  src="https://tr.web.img4.acsta.net/c_310_420/pictures/23/02/20/12/29/4956689.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="vizyon-tarihi">10.11.2023</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="vizyon-adı">The Marvels</h2>
+                  <h3 class="vizyon-puanı">
+                    <span>3.4</span>
+                    <div class="vizyon-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!--swipe sonu-->
+          </div>
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="/javascript/quote.js"></script>
+    <script src="/javascript/vizyon.js"></script>
     <script src="/javascript/script.js"></script>
   </body>
 </html>

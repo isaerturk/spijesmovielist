@@ -600,3 +600,186 @@ input#filmara {
   box-shadow: 0 0px 4px 2px rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 0.982);
 }
+
+
+/*cinema container*/
+.cinema-section{
+  width: 100%;
+  height: 450px;
+  padding: 24px;
+
+}
+.cs-header{
+  width: inherit;
+  height: 32px;
+}
+.cs-header input{
+  display: none;
+ 
+}
+.cs-header label{
+  display: inline-block;
+  width: 49.8%;
+  height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/156/26/354/comics-spider-man-spiderman-superhero-wallpaper-preview.jpg);
+  filter: grayscale(1);
+  border-radius: 5px;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.cs-header label p {
+   display: inline-block;
+    background: white;
+
+    letter-spacing: 23px;
+    padding: 2px;
+    padding-left: 32px;
+    text-align: center;
+    width: inherit;
+    margin-top: 2px;
+    font-weight: bold;
+}
+.cs-header input:checked + label{
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(0);
+}
+.cs-header label:first-of-type{
+  border-right: 1px solid black;
+}
+
+#vizyondakiler,#yakındakiler{
+  max-width: 124rem;
+  height: 470px;
+  margin: 0 auto;
+  margin-top: 16px;
+  transition: opacity 0.8s ease-in-out;
+  opacity: 0;
+}
+#vizyondakiler.change ,#yakındakiler.change{
+  opacity: 1;
+}
+#yakındakiler .vizyon-puanı{
+  display: none;
+}
+.cinema-section .tranding-slider{
+  height: 100%;
+  position: relative;
+}
+.tranding-slide{
+  width: 18rem;
+  height: 26rem;
+  position: relative;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.tranding-slide .tranding-slide-img img{
+  width: 18rem ;
+  height: 26rem;
+  object-fit: cover;
+}
+.tranding-slide .tranding-slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.49);
+}
+.tranding-slide:hover .tranding-slide-content{
+  opacity: 1;
+  transition: opacity ease-in-out .5s;
+}
+.tranding-slide-content .vizyon-tarihi {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+}
+.vizyon-adı{
+  font-weight: bold;
+  font-size: 20px;
+}
+.tranding-slide-content .tranding-slide-content-bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: white;
+}
+.vizyon-rating {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.vizyon-puanı span{
+  font-weight: bold;
+}
+.vizyon-rating ion-icon {
+  color: #ec994b;
+}
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+.tranding-slider-control {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tranding-slider-control .swiper-button-next {
+  left: 70% !important;
+  transform: translateX(-70%) !important;
+}
+.tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+.tranding-slider-control .slider-arrow {
+  background: white;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 28rem;
+  bottom: 0rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background: #ec994b;
+}
