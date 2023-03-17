@@ -125,7 +125,7 @@ $(document).ready(function () {
       },
       {
         quote:
-          "Bizler sorunlarımızdan kahvaltı yaparak kaçan insanlar da değiliz.",
+          "Öncelikle bir, bir gün önce babannesi yenen hiçkimse ertesi gü kahvaltıcıya gittiği için kafası dağılmaz, bu bir. İkincisi bizler sorunlarımızdan kahvaltı yaparak kaçan insanlar da değiliz. Üç ben böyle şeylerin konuşulması gerektiğine inanırım, yad edilmeli insanlar ona inanırım ben.",
         author: "Gibi",
       },
       {
@@ -137,6 +137,11 @@ $(document).ready(function () {
         quote:
           "Eğer hepsini yeniden kaybedeceksem fazla bağlanmak istemiyorum.",
         author: "Anne with an E",
+      },
+      {
+        quote:
+          "Acaba şu anda burada, içimizde, bu çirkin suçu işlememiş gibi görünmeyen en az bir kişi bile olmayabileceği yönünde düşünmeye mi zorlanıyoruz?",
+        author: "Gibi",
       },
       {
         quote: "Görünmeyen düşman daha korkutucudur.",
@@ -153,6 +158,11 @@ $(document).ready(function () {
       {
         quote:
           "Bütün sevgimle seninleyim. Her zaman seninleydim. Bütün hayatımı sana adadım.",
+        author: "The Notebook",
+      },
+      {
+        quote:
+          "Fikirleri uyuşmuyordu. Hatta hemfikir oldukları konular bile pek azdı. Sürekli didişirlerdi. Sürekli birbirlerine meydan okuyorlardı. Ama farklılıklarına karşın önemli bir ortak noktaları vardı. Birbirleri için deli oluyorlardı.",
         author: "The Notebook",
       },
       {
@@ -207,6 +217,11 @@ $(document).ready(function () {
       },
       {
         quote: "Ölüm herkesin geçmesi gereken yeni bir başlangıçtır.",
+        author: "Yüzüklerin Efendisi: Kralın Dönüşü",
+      },
+      {
+        quote:
+          "Nauthannem i ned ol reiannen. (Bir hayale daldığımı sanmıştım.)",
         author: "Yüzüklerin Efendisi: Kralın Dönüşü",
       },
       {
@@ -280,8 +295,23 @@ $(document).ready(function () {
         author: "Ayla",
       },
       {
+        quote:
+          "Bakın benim parolam sevgidir. Ama ben şiddeti de yerine göre bir enstrüman olarak kullanırım.",
+        author: "Ölümlü Dünya",
+      },
+      {
         quote: "Sanki çok ömrümüz varmış gibi beklemeyi öğretiyor hayat bize",
         author: "Piyanist",
+      },
+      {
+        quote:
+          "Mr. Stark? Hey… Mr. Stark? Can you hear me? It’s Peter. Hey. We won, Mr. Stark…. We won, Mr. Stark. We won! You did it, sir, you did it. I’m sorry… Tony…",
+        author: "Avengers: End Game",
+      },
+      {
+        quote:
+          "Peter Parker: Mr. Stark? I don’t feel so good… Tony Stark: You’re all right. Peter Parker: I don’t… I don’t know what’s happening. I don’t know… I don’t want to go. I don’t want to go, sir. Please. Please, I don’t want to go. I don’t want to go. I’m sorry.",
+        author: "Avengers: End Game",
       },
       {
         quote:

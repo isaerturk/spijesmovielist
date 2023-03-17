@@ -635,6 +635,9 @@ input#filmara {
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12)
 }
+.cs-header label:hover{
+  filter: grayscale(0.8);
+}
 .cs-header label p {
    display: inline-block;
     background: white;
