@@ -84,6 +84,15 @@
       left: -4320px;
     }
   }
+  .oscar-header-content h1{
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .oscar-header-content h1{
+    font-size: 60px;
+  }
 }
 @media screen and (max-width: 768px) {
   .watchlist-header-bg::after {
@@ -127,6 +136,9 @@
     90% {
       left: -3072px;
     }
+  }
+  .oscar-header-content h1{
+    font-size: 40px;
   }
 }
 
@@ -175,5 +187,11 @@
     90% {
       left: -1700px;
     }
+  }
+  .oscar-header,.oscar-header-content{
+    height: 90vh;
+  }
+  .oscar-header-content h1{
+    font-size: 2em;
   }
 }

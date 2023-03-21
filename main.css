@@ -2,7 +2,8 @@
 /* font-family: 'Crimson Text', serif; */
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 /* font-family: 'Tilt Neon', cursive; */
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+/*font-family: 'Quicksand', sans-serif;*/
 * {
   padding: 0;
   margin: 0;
@@ -785,4 +786,41 @@ input#filmara {
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: #ec994b;
+}
+
+/* oscar.html*/
+
+.oscarawards{
+  height: 100%;
+  width: 100%;
+}
+.oscar-header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/host-jimmy-kimmel-speaks-onstage-during-the-95th-annual-news-photo-1678669234.jpg?resize=980:*);
+  background-position: center;
+  background-attachment: fixed;
+}
+.oscar-header-content{
+  width: 100%;
+  height:100vh;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.oscar-header-content h1{
+  font-size: 100px;
+  color: #C79F27;
+  background-color: rgba(0, 0, 0, 0.268);
+  width: 100%;
+  box-shadow: 0px 0px 284px 9px rgba(199,159,39,0.67);;
+  text-shadow: 0px 0px 10px #C79F27;
+}
+.oscar-content{
+  width: 100%;
+  height:100vh;
+  background-color: #000;
 }

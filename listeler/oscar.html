@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2023 Oscar | Spijes Watchlist</title>
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- main&style css -->
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/media.css" />
+    <link rel="shortcut icon" href="/svg/logo.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar h-14 w-screen flex">
+      <div
+        class="navbar-logo flex items-center justify-between md:justify-start w-full mr-3 md:mr-0 md:w-72"
+        title="Logo"
+      >
+        <a href="#"
+          ><svg
+            class="logo-svg cursor-pointer m-4"
+            width="35px"
+            height="35px"
+            viewBox="0 0 24 24"
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="logo-svg-path"
+              opacity=".6"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3 4h18a1 1 0 0 1 1 1v1H2V5a1 1 0 0 1 1-1z"
+              fill="#000000"
+            />
+            <path
+              class="logo-svg-path"
+              opacity=".3"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M5 2h14a1 1 0 0 1 1 1v1H4V3a1 1 0 0 1 1-1z"
+              fill="#000000"
+            />
+            <path
+              class="logo-svg-path"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M1 6h22a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm0 2v3h3V8H1zm0 5v3h3v-3H1zm0 5v3h3v-3H1zM20 8v3h3V8h-3zm0 5v3h3v-3h-3zm0 5v3h3v-3h-3z"
+              fill="#000000"
+            /></svg
+        ></a>
+        <a href="/index.html">
+          <img
+            src="/images/logo-header.png"
+            alt="Logo"
+            class="logo-header-black h-8 cursor-pointer"
+          />
+        </a>
+        <a href="/index.html"
+          ><img
+            src="/images/logo-header-white.png"
+            alt="Logo"
+            class="logo-header-white h-8 cursor-pointer hidden"
+        /></a>
+        <input type="checkbox" id="hamburger-input" class="hidden" />
+        <label
+          for="hamburger-input"
+          class="hamburger-input z-30 relative cursor-pointer md:hidden sm:inline-block"
+        >
+          <i class="fa-solid fa-bars text-3xl"></i>
+        </label>
+        <div class="menu z-20 flex flex-col p-3 lg:hidden">
+          <div class="darkmode-toggle justify-self-end">
+            <label class="switch">
+              <input type="checkbox" />
+              <span id="switch" class="slider" title="Gece Modu"></span>
+            </label>
+          </div>
+          <div class="ham-menu p-7">
+            <div class="ham-menuitems">
+              <div class="search-box flex w-full p-1">
+                <label
+                  for="#navbar-search"
+                  class="cursor-pointer"
+                  title="Arama Yap"
+                  ><svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="24" height="24" fill="white" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C11.8487 18 13.551 17.3729 14.9056 16.3199L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L16.3199 14.9056C17.3729 13.551 18 11.8487 18 10C18 5.58172 14.4183 2 10 2Z"
+                      fill="#323232"
+                    /></svg
+                ></label>
+                <input
+                  id="navbar-search"
+                  maxlength="70"
+                  class="w-11/12 pl-3"
+                  type="search"
+                  placeholder="Ara"
+                />
+              </div>
+            </div>
+            <div class="ham-menuitems">
+              <h1><a href="/index.html" title="Ana Sayfa">ANA SAYFA</a></h1>
+            </div>
+            <div class="ham-menuitems">
+              <h1>KATEGORİLER <i class="fa-solid fa-chevron-down"></i></h1>
+              <ul class="pl-4">
+                <li><a href="#">Aksiyon</a></li>
+                <li><a href="#">Romantik Komedi</a></li>
+                <li><a href="#">Korku</a></li>
+                <li><a href="#">Gizem</a></li>
+                <li><a href="#">Komedi</a></li>
+                <li><a href="#">Animasyon</a></li>
+              </ul>
+            </div>
+            <div class="ham-menuitems">
+              <h1>LİSTELER <i class="fa-solid fa-chevron-down"></i></h1>
+              <ul class="pl-4">
+                <li><a href="mylist.html">Listem</a></li>
+                <li><a href="#">Imdb Top 250</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-menum w-1/2 items-center justify-end hidden md:flex">
+        <ul
+          class="flex navbar-menu-list font-bold text-xs lg:text-sm xl:text-base"
+        >
+          <li class="navbar-menu-list-item text-center mr-2.5 lg:mr-5 xl:mr-10">
+            <a href="/index.html" title="Ana Sayfa">ANA SAYFA</a>
+          </li>
+          <li class="navbar-menu-list-item mr-2.5 lg:mr-5 xl:mr-10">
+            <div class="dropdown">
+              <button class="dropdown-toggle">
+                KATEGORİLER <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Aksiyon</a></li>
+                <li><a href="#">Romantik Komedi</a></li>
+                <li><a href="#">Korku</a></li>
+                <li><a href="#">Gizem</a></li>
+                <li><a href="#">Komedi</a></li>
+                <li><a href="#">Animasyon</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="navbar-menu-list-item mr-2.5 lg:mr-5 xl:mr-10">
+            <div class="dropdown">
+              <button class="dropdown-toggle">
+                LİSTELER <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="mylist.html">Listem</a></li>
+                <li><a href="#">IMDB TOP 250</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="darkmode-toggle justify-self-end">
+          <label class="switch">
+            <input type="checkbox" />
+            <span id="switch2" class="slider" title="Gece Modu"></span>
+          </label>
+        </div>
+      </div>
+      <div
+        class="navbar-search w-1/3 justify-center items-center hidden md:flex"
+      >
+        <div class="search-box flex w-10/12 p-1">
+          <label for="#navbar-search" class="cursor-pointer" title="Arama Yap"
+            ><svg
+              width="30px"
+              height="30px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="24" height="24" fill="white" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C11.8487 18 13.551 17.3729 14.9056 16.3199L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L16.3199 14.9056C17.3729 13.551 18 11.8487 18 10C18 5.58172 14.4183 2 10 2Z"
+                fill="#323232"
+              /></svg
+          ></label>
+          <input
+            id="navbar-search"
+            maxlength="70"
+            class="w-11/12 pl-3"
+            type="search"
+            placeholder="Ara"
+          />
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="oscarawards">
+        <div class="oscar-header">
+          <div class="oscar-header-content">
+            <h1 class="text-white">2023 OSCAR ÖDÜLLERİ </h1>
+          </div>
+        </div>
+        <div class="oscar-content">
+
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>
